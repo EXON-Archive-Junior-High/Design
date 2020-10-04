@@ -1,4 +1,4 @@
 # Design
 엑슨의 디자인<br>
 ## bubble
-[bubble](https://1-exon.github.io/Design/bubble/index.html)
+[bubble](https://design.exon.kr/bubble/)
