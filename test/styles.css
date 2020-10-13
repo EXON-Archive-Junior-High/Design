@@ -1,22 +1,31 @@
 @import "reset.css";
 
 body {
-    background-color: #363DC2;
+    background-color: #1A1A1A;
     color: white;
     font-family: 'Syne', sans-serif;
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin-top: 150px;
     text-align: center;
 }
 
 h1 {
     font-size: 70px;
+    font-weight: bolder;
 }
 
 p {
     padding-top: 5px;
+}
+
+img {
+    flex: 1; /* flex: 1 1 0 */
+    overflow: auto;
 }
 
 .cards {
@@ -29,8 +38,7 @@ p {
     flex-direction: row;
     width: 200px;
     height: 300px;
-    background-color: white;
+    background-color: #34495e;
     border-radius: 10px;
     margin-right: 10px;
-    box-shadow: 0px 0px 5px;
 }
