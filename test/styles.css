@@ -7,11 +7,15 @@ body {
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
     height: 100%;
     margin-top: 150px;
-    text-align: center;
+    margin-left: calc(50% - 200px);
+    align-items: center;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 300px;
 }
 
 h1 {
@@ -19,13 +23,22 @@ h1 {
     font-weight: bolder;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+.h1 {
+    position: relative;
+    margin-right: 20px;
+}
+
+
 p {
     padding-top: 5px;
 }
 
 img {
-    flex: 1; /* flex: 1 1 0 */
-    overflow: auto;
+    float: left;    
 }
 
 .cards {
@@ -41,4 +54,8 @@ img {
     background-color: #34495e;
     border-radius: 10px;
     margin-right: 10px;
+}
+
+.logo {
+    margin-left: 20px;
 }
