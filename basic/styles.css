@@ -11,6 +11,25 @@ body {
     margin-top: 200px;
 }
 
+.menu {
+    height: 50px;
+    width: 100%;
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    background-color: #ECEFF4;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu p {
+    font-size: large;
+    color: #2E3440;
+    float: left;
+}
+
 .side {
     height: 100%;
     width: 250px;
