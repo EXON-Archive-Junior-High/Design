@@ -3,7 +3,7 @@
 body {
     background-color: #D8DEE9;
     color:#2E3440;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif !important;
 }
 
 .main {
@@ -20,14 +20,19 @@ body {
     left: 0;
     background-color: #ECEFF4;
     overflow-x: hidden; 
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
-.menu p {
+.menu a {
     font-size: large;
     color: #2E3440;
-    float: left;
+    padding-left: 5em;
+}
+
+.menu img {
+    padding-left: 60px;
+    vertical-align:middle;
 }
 
 .side {
@@ -35,19 +40,55 @@ body {
     width: 250px;
     position: fixed; 
     z-index: 1; 
-    top: 0; 
+    top: 50px; 
     left: 0;
     background-color: #E5E9F0;
     overflow-x: hidden; 
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 30px;
+    padding-left: 2em;
+}
+
+.side .group {
+    font-weight: bolder;
+    font-size: small;
+    color: #2E3440;
+    padding-top: 30px;
 }
 
 .side p {
-    font-size: large;
+    font-size: medium;
     color: #2E3440;
+    padding-top: 10px;
 }
 
 .title {
     font-size: 70px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #E5E9F0;
+    width: 15em;
+    height: 20em;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.card .card-title {
+    font-size: larger;
+    color: #2E3440;
+    padding-top: 20px;
+}
+
+.card .card-content {
+    font-size: medium;
+    color: #2E3440;
+    padding-top: 10px;
 }
