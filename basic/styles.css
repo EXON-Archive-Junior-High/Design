@@ -34,7 +34,15 @@
 
     .menu img {
         padding-left: 1em;
-        vertical-align:middle;
+        vertical-align: middle;
+    }
+
+    .side-button {
+        background-color: #2E3440;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        position: fixed;  
     }
 
     .side {
