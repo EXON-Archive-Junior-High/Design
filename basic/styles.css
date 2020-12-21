@@ -9,8 +9,9 @@
     }
 
     .main {
-        margin-left: 3em;
-        margin-top: 200px;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: 80px;
     }
 
     .menu {
@@ -24,6 +25,7 @@
         overflow-x: hidden; 
         padding-top: 15px;
         padding-bottom: 5px;
+        
     }
 
     .menu a {
@@ -37,19 +39,29 @@
         vertical-align: middle;
     }
 
-    .side-button {
+    .menu .side-button {
+        display: flex;
+        justify-content:center;
+        align-items:center;
         background-color: #2E3440;
-        height: 50px;
-        width: 50px;
+        margin-left: 10px;
+        margin-right: 2em;
+        height: 35px;
+        width: 35px;
         border-radius: 100%;
-        position: fixed;  
+        float: right;
+    }
+
+    .menu .side-button img {
+        max-width:100%;
+        max-height:100%;
     }
 
     .side {
         height: 100%;
         width: 0px;
         position: fixed; 
-        z-index: 1; 
+        z-index: 1;
         top: 50px; 
         left: 0;
         background-color: #E5E9F0;
@@ -144,7 +156,7 @@
 
     .side {
         height: 100%;
-        width: 250px;
+        width: 20%;
         position: fixed; 
         z-index: 1; 
         top: 50px; 
