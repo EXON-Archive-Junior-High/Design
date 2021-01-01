@@ -5,6 +5,7 @@ html {
     --text-color: #2E3440;
     --menu-color: #ECEFF4;
     --sm-color: #E5E9F0;
+    --logo-img: url('../images/logo.png')
 }
 
 html.dark {
@@ -12,6 +13,7 @@ html.dark {
     --text-color: #D8DEE9;
     --menu-color: #141414;
     --sm-color: #202020;
+    --logo-img: url('../images/logo1.png')
 }
 
 body {
@@ -47,9 +49,10 @@ a:active { color: var(--text-color); text-decoration: none; }
         top: 0;
         left: 0;
         background-color: var(--menu-color);
+        overflow-y: hidden;
         overflow-x: hidden; 
-        padding-top: 15px;
-        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
         
     }
 
@@ -64,24 +67,6 @@ a:active { color: var(--text-color); text-decoration: none; }
         vertical-align: middle;
     }
 
-    .menu .side-button {
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        background-color: var(--text-color);
-        margin-left: 10px;
-        margin-right: 2em;
-        height: 35px;
-        width: 35px;
-        border-radius: 100%;
-        float: right;
-    }
-
-    .menu .side-button img {
-        max-width:100%;
-        max-height:100%;
-    }
-
     .side {
         height: 100%;
         width: 0px;
@@ -94,8 +79,6 @@ a:active { color: var(--text-color); text-decoration: none; }
         padding-top: 30px;
         padding-left: 0em;
     }
-
-    
 
     .side p {
         font-size: medium;
@@ -152,9 +135,9 @@ a:active { color: var(--text-color); text-decoration: none; }
         top: 0; 
         left: 0;
         background-color: var(--menu-color);
+        overflow-y: hidden;
         overflow-x: hidden; 
-        padding-top: 15px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 
     .menu a {
