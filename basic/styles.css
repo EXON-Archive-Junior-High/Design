@@ -218,4 +218,8 @@ a:active { color: var(--text-color); text-decoration: none; }
         color: var(--text-color);
         padding-top: 10px;
     }
+
+    footer {
+        
+    }
 }
