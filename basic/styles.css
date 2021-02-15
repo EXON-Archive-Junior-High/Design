@@ -118,6 +118,10 @@ a:active { color: var(--text-color); text-decoration: none; }
         padding-top: 10px;
     }
 
+    .theme {
+        display: fixed;
+        align-items: end;
+    }
 }
 
 @media screen and (min-width:769px) {
@@ -144,6 +148,19 @@ a:active { color: var(--text-color); text-decoration: none; }
         font-size: large;
         color: var(--text-color);
         padding-left: 5em;
+    }
+
+    .menu button {
+        float: right;
+        background: url("./images/dark.png");
+        background-size: 30px 30px;
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        outline: none;
+        border: none;
     }
 
     .menu img {
