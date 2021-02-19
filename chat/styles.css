@@ -2,8 +2,29 @@
 
 body {
     color: white;
+    background-color: #1D1D26;
 }
 
 .main {
     
+}
+
+.submit {
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient( to right, #bb3fdd, #FF9C80);
+    border: none;
+    outline: none;
+    transition: margin-top 0.1s ease-out 10ms;
+    box-shadow: 0px 4px #CC49E7;
+}
+
+.submit:after {
+    box-shadow: 0px 4px #FF9C80;
+}
+
+.submit:hover {
+    margin-top: -10px;
 }
